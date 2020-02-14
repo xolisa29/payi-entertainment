@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Payi Entatainment</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+    <link rel="stylesheet" href="contact.css"> 
+</head>
+<body>
+    <div class="header">
+        <div class="web-tittle">
+            <h1>Welcome to Payi Entertainment</h1>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <div class="button"><a href="index.html">About-Me</a></div>
+        <div class="button"><a href="portfolio.html">Portfolio</a></div>
+        <div class="button"><a href="contact.html">Contact</a><a/div>
+    </div>
+</html>
+<div class="container">
+    <div style="text-align:center">
+  
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="phone.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form id="contactForm">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">country</label>
+          <select id="country" name="country">
+            <option value="south africa">South Africa</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            <option value="Zambia">Zambia</option>
+            <option value="uganda">Uganda</option>
+            <option value="ghana">Ghana</option>
+            <option value="lesotho">Lesotho</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <div class="g-recaptcha" data-sitekey="6Lcnd9gUAAAAANPytDjldnTSe82TGDdUB3NOqE3R"></div>
+      <br/>
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    </div>
+
+   
+  </div>
+  <div class="social-media-icons">
+    <a href="https://en-gb.facebook.com/login/"> <img src="facebook.png" width="100px" height="100px"></a>
+    <a href="https://twitter.com/login"> <img src="twitter.png" width="100px" height="100px"></a>
+    <a href="https://www.linkedin.com/login"> <img src="download.jpg" width="100px" height="100px"></a>
+    <a href="http://www.google.com/"> <img src="google.png" width="100px" height="100px"></a>
+    
+
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="main.js"></script>
+</html>
+
